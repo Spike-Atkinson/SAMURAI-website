@@ -1,0 +1,73 @@
+<!DOCTYPE html>  <!-- 1902160 -->
+<html lang = "en">
+
+<!--Header contains character encoding, 
+link to stylesheet, icon, and title-->
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="images/face-small.png">
+<title>SAMURAI</title>
+</head>
+
+<body>
+<!--"samurai" home button-->
+<a href="index.html"> <img class="samuraibutton" src="images/logobutton.png" alt="Home button"> </a> 
+
+<!--navbar-->
+<ul class ="navbar">
+<li class="navElement"><a href="basket.html" class="basket">
+<div class="basket">Basket</div></a></li>
+
+<li class="navElement"><a href="login.html" class="login">
+<div class="login">Login</div></a></li>
+</ul><br/>
+
+<!--Back button-->
+<a href="merch.html"><img class="back" src="images/back-button-store.png" alt="Back to Store"></a>
+
+<!-- horizontal space that contains description-->
+<div class="descriptionrow">
+	<!--image of product-->
+	<div class="image">
+		<img id="image" src="images/products-07.png" alt="Product selection">
+	</div>
+	<!--lorem ipsum description-->
+	<div class="information">
+		<div class="description">
+			<h1 id="description">Description</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui. Volutpat ac tincidunt vitae semper quis lectus. Morbi non arcu risus quis varius. Viverra justo nec ultrices dui sapien eget mi proin sed.</p><br>
+			</div>
+		<!--options for sizing and quantity-->
+		<form id="options">
+			<div class="sizeSelection">
+				<input type="radio" id="small" name="size">
+				<label for="small">Small</label><br>
+				<input type="radio" id="medium" name="size">
+				<label for="medium"> Medium</label><br>
+				<input type="radio" id="large" name="size">
+				<label for="large"> Large</label><br>
+			</div><br>
+			<div class="quantity">
+				<label for="quantity">Quantity</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="99">
+			</div>
+		</form>
+		<!--Add button, for adding to basket-->
+		<a href="">
+		<div class="add">
+			<p class="addTxt">Add</p>
+		</div> </a>
+	</div>
+</div>
+		
+<!--Copyright/update footer-->
+<footer>
+<div class="footer">
+	<span id="copyright">© 1902160 2021 </span>
+	<span id="updated"> Last updated Feb 2021 </span>
+</div>
+</footer>
+</body>
+
+</html>

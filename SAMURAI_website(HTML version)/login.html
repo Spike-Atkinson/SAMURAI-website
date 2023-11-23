@@ -1,0 +1,68 @@
+<!DOCTYPE html>  <!-- 1902160 -->
+<html lang = "en">
+
+<!--Header contains character encoding, 
+link to stylesheet, icon, and title-->
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="images/face-small.png">
+<title>SAMURAI</title>
+</head>
+
+<body>
+<!--"samurai" home button-->
+<a href="index.html"> <img class="samuraibutton" src="images/logobutton.png" alt="Home button"> </a> 
+
+<!--navbar-->
+<ul class ="navbar">
+<li class="navElement"><a href="basket.html" class="basket">
+<div class="basket">Basket</div></a></li>
+
+<li class="navElement"><a href="login.html" class="login">
+<div class="login">Login</div></a></li>
+</ul><br/>
+
+<!--Back button-->
+<a href="merch.html"><img class="back" src="images/back-button-store.png" alt="Back to Store"></a>
+
+<!--Login area -->
+<div class="loginFields">
+	<h1>Login: </h1>
+	<form>
+		<label for="usernameLog">Username: </label>
+		<input type="text" id="usernameLog">
+		<p><label for="passwordLog">Password: </label>
+		<input type="text" id="passwordLog"></p>
+		<button id="loginButton" formaction="login.html">Login</button>
+	</form>
+	
+</div>
+<p id="noAcc">Don't have an account?<br/> Register below.</p>
+
+<!--Register area -->
+<div class="register">
+	<h1>Register: </h1>
+	<form>
+		<label for="usernameReg">Username:	</label><br/>
+		<input type="text" id="usernameReg">
+		<p><label for="email">Email address:</label><br/>
+		<input type="text" id="email"></p>
+		<label for="passwordReg">Password:</label><br/>
+		<input type="text" id="passwordReg">
+		<p><label for="confirm">Confirm Password:</label><br/>
+		<input type="text" id="confirm"></p>
+		<button id="regButton" formaction="login.html">Register</button>
+	</form>
+</div>
+
+<!--Copyright/update footer-->
+<footer>
+<div class="footer">
+	<span id="copyright">© 1902160 2021 </span>
+	<span id="updated"> Last updated Feb 2021 </span>
+</div>
+</footer>
+</body>
+
+</html>

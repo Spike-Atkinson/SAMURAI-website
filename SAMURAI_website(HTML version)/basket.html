@@ -1,0 +1,84 @@
+<!DOCTYPE html>  <!-- 1902160 -->
+<html lang = "en">
+
+<!--Header contains character encoding, 
+link to stylesheet, icon, and title-->
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="images/face-small.png">
+<title>SAMURAI</title>
+</head>
+
+<body>
+<!--"samurai" home button-->
+<a href="index.html"> <img class="samuraibutton" src="images/logobutton.png" alt="Home button"> </a> 
+
+<!--navbar-->
+<ul class ="navbar">
+<li class="navElement"><a href="basket.html" class="basket">
+<div class="basket">Basket</div></a></li>
+
+<li class="navElement"><a href="login.html" class="login">
+<div class="login">Login</div></a></li>
+</ul><br/>
+
+<!--Back button-->
+<a href="merch.html"><img class="back" src="images/back-button-store.png" alt="Back to store"></a>
+
+<!--Basket-->
+<div class="wholeBasket">
+	<!--image, quantity, and removal option for first item in basket-->
+	<div class="basketItem">
+		<img class="basketImage" src="images/products-01.png" alt="Samurai Oni Vest">
+		<p class="basketItemName">Samurai Oni Vest</p>
+		<form>
+			<label class="basketQuantity" for="quantity1">Quantity</label>
+			<input type="number" class="basketQuantity" id="quantity1" min="1" max="99" >
+			<label class="remove" for="remove1">Remove</label>
+			<input type="checkbox" class="remove" id="remove1">
+		</form>
+	</div>
+	
+	<!--image, quantity, and removal option for second item in basket-->
+	<div class="basketItem">
+		<img class="basketImage" src="images/products-06.png" alt="'A Cool Metal Fire' Album">
+		<p class="basketItemName">ACMF Album</p>
+		<form>
+			<label class="basketQuantity" for="quantity2">Quantity</label>
+			<input type="number" class="basketQuantity" id="quantity2" min="1" max="99" >
+			<label class="remove" for="remove2">Remove</label>
+			<input type="checkbox" class="remove" id="remove2">
+		</form>
+	</div>
+	
+	<!--image, quantity, and removal option for third item in basket-->
+	<div class="basketItem">
+		<img class="basketImage" src="images/products-03.png" alt="Samurai Jacket">
+		<p class="basketItemName">Samurai Jacket</p>
+		<form>
+			<label class="basketQuantity" for="quantity3">Quantity</label>
+			<input type="number" class="basketQuantity" id="quantity3" min="1" max="99" >
+			<label class="remove" for="remove3">Remove</label>
+			<input type="checkbox" class="remove" id="remove3">
+		</form>
+	</div>
+		<!--update button for quantity and removal-->
+		<a href ="">
+			<div id="update">update</div> </a>
+		<!--checkout button-->	
+		<a href="">
+			<img id="checkout" src="images/checkout.png" alt="Checkout Button"> </a>
+	
+</div>
+
+<!--Copyright/update footer-->
+<footer>
+<div class="footer">
+	<span id="copyright">© 1902160 2021 </span>
+	<span id="updated"> Last updated Feb 2021 </span>
+</div>
+</footer>
+</body>
+
+</html>
