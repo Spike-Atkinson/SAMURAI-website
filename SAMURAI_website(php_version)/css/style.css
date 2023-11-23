@@ -1,0 +1,388 @@
+/*body*/    /* 1902160 */ 
+body {
+	background-color:black;
+	background-image: url("../images/background-06.png");
+	background-size:cover;
+	color:cyan;
+	font-family: 'Russo One', Helvetica;
+}
+#index{
+	background-image:none;
+}
+/* navbar and common elements */
+.navbar {
+	position:absolute;
+	right:5%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navElement {
+	float:left;
+	margin-right:50px;
+	font-size:25px;
+}
+.current{
+	border:3px solid #00FFFF;
+	height:33px;
+}
+.counter{
+	position:relative;
+	color: black;
+	font-size:15px;
+	background-color:yellow;
+	border-radius: 20px / 20px;
+	text-align:center;
+	width:30px;
+	left:75px;
+	bottom:10px;
+}
+.button{
+	margin-bottom: 50px;
+	max-width: 100%;
+	box-shadow: 5px 5px 10px cyan;
+}
+.button:hover, .navElement:hover{
+	filter: brightness(150%);
+	font-size:200%;
+}
+.button:active{
+	box-shadow:none;
+	opacity:70%;
+}
+.back{
+	width: 250px;
+	margin-left: 5%;
+	margin-top: 50px;
+}
+#space{
+	height:100px;
+}
+footer{
+	display:inline;
+	position:relative;
+	bottom:0px;
+	font-size: 13px;
+	margin-top:100px;
+}
+#copyright, #updated {
+	margin:20px;
+	margin-top:100px;
+}
+/*general link style*/
+a:link{
+	color:cyan;
+	text-decoration: none;
+}
+a:visited{
+	color:cyan;
+}
+a:hover{
+	filter: brightness(150%);
+}
+a:active{
+	opacity:70%;
+} 
+
+/*index*/
+.row {
+	column-count: 3;
+	flex-wrap: wrap;
+	padding: 30px 30px;
+	column-width:100px;
+	max-width:1600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {  
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	max-width: 70%;	
+}  
+#face {
+	margin-left:7%;
+	max-width: 90%;
+}
+
+/*bio*/
+.bio, .contact {
+	text-align: left;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:25px;
+}
+.bio {
+	background-color:black;
+}
+#bio-h1, #contact-h1{
+	background-color:transparent;
+	font-size:40px;
+}
+sup{
+	font-size:15px;
+}
+/*Music*/
+.playlist{
+	position:relative;
+	left:10%;
+	width:80%;
+	height:400px;
+	margin-bottom:100px;
+}
+#playlist{
+	border:0px;
+	max-width:100%;
+}
+
+
+/*Store*/
+.samuraibutton{
+    position:relative;
+	top:10px;
+	left:10px;
+	width:200px;
+	height:30px;
+}
+
+
+/*merch*/
+.merchRow{
+	column-count:3;
+	margin-top:50px;
+	margin-left:5%;
+	
+}
+.merchbox{
+	height:300px;
+	width: 300px;
+	background-color: #404040;
+	margin-bottom:50px;
+
+}
+
+#img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:210px;
+}
+.info{
+	background-color:black;
+	height:40px;
+	text-align:center;
+	font-size:25px;
+}
+.add{
+	color:black;
+	background-color:yellow;
+	height:50px;
+	text-align:center;
+	font-size:40px;
+}
+
+/* description*/
+.descriptionrow{
+	column-count: 2;
+	margin-left:20%;
+	margin-right:10%;
+	margin-top: 75px;
+	margin-bottom:50px;
+	max-width:70%;
+	
+}
+.image{
+	width:100%;
+	height:100%;
+	margin-bottom:100px;
+}
+#image{
+	width:100%;
+	background-color: #404040;
+}
+.information{
+	height:100%;
+	width:100%;
+}
+.description{
+	margin-left:20px;
+}
+#options{
+	margin:20px;
+}
+
+/* basket */
+.wholeBasket{
+	margin-left:25%;
+	max-width:1000px;
+}
+.basketItem{
+	background-color:#404040;
+	max-width:90%;
+	height:100px;
+	margin-bottom:20px;
+}
+.basketImage{
+	max-height:90%;
+	margin:5px;
+}
+
+.basketQuantity, .remove, .basketItemName{
+	position:relative;
+	top:-120px;
+}
+.basketItemName{
+	left:100px;
+	top:-80px;
+}
+.basketQuantity{
+	left:50%;
+	width:40px;
+}
+.remove{
+	left:65%;
+}
+#update{
+	position:relative;
+	left:45%;
+	top:30px;
+	height:30px;
+	width:100px;
+	background-color:black;
+	border:1px solid cyan;
+	text-align:center;
+	font-size:20px;
+}
+#checkout{
+	position: relative;
+	width:250px;
+	top:-30px;
+	left:60%;
+}
+
+/*login*/
+.logreg, #noAcc {
+	position:relative;
+	left:40%;
+	top:0px;
+	margin-top:50px;
+	width:305px;
+}
+
+
+@media screen and (max-width: 995px){
+	/*Store*/
+	.descriptionrow{
+		column-count: 1;
+		margin-left: 50px;
+	}
+	.merchRow{
+		column-count:2;
+		
+	}
+	.merchbox{
+		margin-bottom:20px;
+	}
+	ul{
+		right:5px;
+	}
+	li{
+		margin-right:25px;
+	}
+	
+	/*description.html*/
+	.image{
+		margin-bottom:0px;
+	}
+	
+	/*basket*/
+	.wholeBasket{
+		margin-left:15%;
+	}
+	.basketQuantity{
+		left:50%;
+		
+	}
+	.remove{
+		left:55%;
+	}
+	#update{
+		left:-10px;
+	}
+	#checkout{
+		left:25%;
+	}
+	
+	/*login*/
+	.logreg, #noAcc {
+		left:30%;
+	}
+}
+@media screen and (max-width: 750px){
+	/*index.html*/
+	#face{
+		position: absolute;
+		opacity: 30%;
+		z-index: -1;
+		left:55px;
+		top:10%;
+		max-width:100%;
+		max-height:100%;
+		margin-left:15%;
+		margin-top:8%;
+	}
+	.row {
+	column-count: 2;
+	}
+	.face-column {
+	padding: 0px;
+	}
+	
+	/*text in bio.html and contactus.html*/
+	#bio, #contact{
+		width:70%;
+		font-size:18px;
+		margin-bottom:75px;
+	}
+	/*basket*/
+	.wholeBasket{
+		margin-left:5%;
+	}
+	.basketQuantity{
+		left: 65%;
+		top:-85px;
+	}
+	.remove{
+		top:-150px;
+		left:35%;
+	}
+}
+@media screen and (max-width: 670px) {
+.merchRow{
+		column-count:1;
+		margin-left: 20%;
+	}
+@media screen and (max-width: 500px) {
+	/*index*/
+	#title{
+		max-width:100%;
+	}
+	.row {
+	column-count: 1;
+	}
+	.left-column{
+		padding-bottom: 0px;
+	}
+	.right-column{
+		padding-top: 0px;
+	}
+	#face{
+		width:300px;
+		height:300px;
+		left: 8%;
+	}
+}	
